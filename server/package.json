@@ -1,0 +1,23 @@
+{
+  "name": "ts_starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/md-redwanislam/typescript_starter_pack.git",
+  "author": "Redwan Islam",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node dist/index.js",
+    "build": "tsc",
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
