@@ -87,7 +87,10 @@ Add the following script to `package.json`:
 ```json
 {
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+
+    // For older version
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
   }
 }
 ```
